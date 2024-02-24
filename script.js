@@ -10,4 +10,7 @@ let email = prijmeni + jmeno
 email = email.toLowerCase()
 
 
-document.body.innerHTML = email + "@fit.cvut.cz"
+document.body.innerHTML = 
+`<p>${email}@fit.cvut.cz
+</p>`
+
